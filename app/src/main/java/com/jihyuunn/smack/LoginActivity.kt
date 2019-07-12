@@ -1,5 +1,6 @@
 package com.jihyuunn.smack
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -16,6 +17,7 @@ class LoginActivity : AppCompatActivity() {
     }
 
     fun signupClicked(view: View) {
-
+        val signupIntent = Intent(this, UserActivity::class.java)
+        startActivity(signupIntent)
     }
 }
