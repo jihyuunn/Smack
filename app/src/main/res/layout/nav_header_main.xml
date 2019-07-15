@@ -26,7 +26,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:id="@+id/userNameNavHeader"
             app:layout_constraintStart_toEndOf="@+id/UserImageNavHeader"
-            android:layout_marginStart="8dp" tools:text="Jihyun Lee" android:textSize="18sp"
+            android:layout_marginStart="24dp" tools:text="Jihyun Lee" android:textSize="18sp"
             app:layout_constraintTop_toTopOf="@+id/UserImageNavHeader"/>
 
     <TextView
@@ -35,7 +35,7 @@
             android:id="@+id/userEmailNavHeader"
             app:layout_constraintTop_toBottomOf="@+id/userNameNavHeader"
             tools:text="791004_@likelion.org"
-            app:layout_constraintStart_toEndOf="@+id/UserImageNavHeader" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toEndOf="@+id/UserImageNavHeader" android:layout_marginStart="24dp"
             android:textSize="18sp"/>
     <Button
             android:text="LogIn"
