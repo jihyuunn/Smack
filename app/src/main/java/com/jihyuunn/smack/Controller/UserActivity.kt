@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.jihyuunn.smack.R
+import com.jihyuunn.smack.Sevices.AuthSevice
 import kotlinx.android.synthetic.main.activity_user.*
 import java.util.*
 
@@ -48,6 +49,11 @@ class UserActivity : AppCompatActivity() {
     }
 
     fun createUser(view: View) {
+        AuthSevice.registerUser(this, "j@j.com", "1234567") { complete ->
+            if (complete) {
 
+            }
+
+        }
     }
 }
