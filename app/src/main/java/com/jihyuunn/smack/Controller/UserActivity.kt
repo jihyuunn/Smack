@@ -1,9 +1,10 @@
-package com.jihyuunn.smack
+package com.jihyuunn.smack.Controller
 
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.jihyuunn.smack.R
 import kotlinx.android.synthetic.main.activity_user.*
 import java.util.*
 

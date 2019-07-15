@@ -1,9 +1,10 @@
-package com.jihyuunn.smack
+package com.jihyuunn.smack.Controller
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.jihyuunn.smack.R
 
 class LoginActivity : AppCompatActivity() {
 
